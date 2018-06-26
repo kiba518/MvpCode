@@ -1,0 +1,11 @@
+E:\GitHub\MvpCode\2017\Grammar\Grammar\bin\Debug\netcoreapp2.0\Grammar.deps.json
+E:\GitHub\MvpCode\2017\Grammar\Grammar\bin\Debug\netcoreapp2.0\Grammar.runtimeconfig.json
+E:\GitHub\MvpCode\2017\Grammar\Grammar\bin\Debug\netcoreapp2.0\Grammar.runtimeconfig.dev.json
+E:\GitHub\MvpCode\2017\Grammar\Grammar\bin\Debug\netcoreapp2.0\Grammar.dll
+E:\GitHub\MvpCode\2017\Grammar\Grammar\bin\Debug\netcoreapp2.0\Grammar.pdb
+E:\GitHub\MvpCode\2017\Grammar\Grammar\obj\Debug\netcoreapp2.0\Grammar.csprojResolveAssemblyReference.cache
+E:\GitHub\MvpCode\2017\Grammar\Grammar\obj\Debug\netcoreapp2.0\Grammar.csproj.CoreCompileInputs.cache
+E:\GitHub\MvpCode\2017\Grammar\Grammar\obj\Debug\netcoreapp2.0\Grammar.AssemblyInfoInputs.cache
+E:\GitHub\MvpCode\2017\Grammar\Grammar\obj\Debug\netcoreapp2.0\Grammar.AssemblyInfo.cs
+E:\GitHub\MvpCode\2017\Grammar\Grammar\obj\Debug\netcoreapp2.0\Grammar.dll
+E:\GitHub\MvpCode\2017\Grammar\Grammar\obj\Debug\netcoreapp2.0\Grammar.pdb
