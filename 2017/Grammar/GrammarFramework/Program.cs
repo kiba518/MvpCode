@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GrammarFramework.Code;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace GrammarFramework
     {
         static void Main(string[] args)
         {
-            AsnycGrammmar.Excute(); 
+            Dijkstra.Excute(); 
             Console.ReadKey();
         }
     }
