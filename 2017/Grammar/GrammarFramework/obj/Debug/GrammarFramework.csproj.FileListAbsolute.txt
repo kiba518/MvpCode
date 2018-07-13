@@ -1,7 +1,7 @@
 E:\GitHub\MvpCode\2017\Grammar\GrammarFramework\bin\Debug\GrammarFramework.exe.config
 E:\GitHub\MvpCode\2017\Grammar\GrammarFramework\bin\Debug\GrammarFramework.exe
 E:\GitHub\MvpCode\2017\Grammar\GrammarFramework\bin\Debug\GrammarFramework.pdb
-E:\GitHub\MvpCode\2017\Grammar\GrammarFramework\obj\Debug\GrammarFramework.csprojResolveAssemblyReference.cache
 E:\GitHub\MvpCode\2017\Grammar\GrammarFramework\obj\Debug\GrammarFramework.csproj.CoreCompileInputs.cache
 E:\GitHub\MvpCode\2017\Grammar\GrammarFramework\obj\Debug\GrammarFramework.exe
 E:\GitHub\MvpCode\2017\Grammar\GrammarFramework\obj\Debug\GrammarFramework.pdb
+E:\GitHub\MvpCode\2017\Grammar\GrammarFramework\obj\Debug\GrammarFramework.csprojAssemblyReference.cache

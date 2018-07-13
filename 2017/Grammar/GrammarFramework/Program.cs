@@ -11,7 +11,7 @@ namespace GrammarFramework
     {
         static void Main(string[] args)
         {
-            Dijkstra.Excute(); 
+            SingleAwaitGrammmar.Excute(); 
             Console.ReadKey();
         }
     }

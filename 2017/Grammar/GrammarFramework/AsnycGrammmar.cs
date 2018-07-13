@@ -10,18 +10,18 @@ namespace GrammarFramework
 {
     class AsnycGrammmar
     {
-        /* 
-        使用 async 修饰符可将方法、lambda 表达式或匿名方法指定为异步。 如果对方法或表达式使用此修饰符，则其称为异步方法。 如下示例定义了一个名为 ExampleMethodAsync 的异步方法：
-        */
+        //1，await 只能在标记了async的函数内使用
+        //1，await 等待的函数必须标记async 
         public static void Excute()
         {
-            Console.WriteLine(Thread.CurrentThread.GetHashCode() + " 开始 Excute " + DateTime.Now);
-            StartButton_Click();
+            Console.WriteLine(Thread.CurrentThread.GetHashCode() + " 开始 Excute " + DateTime.Now); 
+            Start();
             Console.WriteLine(Thread.CurrentThread.GetHashCode() + " 结束 Excute " + DateTime.Now);
 
         }
         
-        private async static void StartButton_Click()
+        //使用 async 修饰符可将方法、lambda 表达式或匿名方法指定为异步。 如果对方法或表达式使用此修饰符，则其称为异步方法。 如下示例定义了一个名为 Start 的异步方法： 
+        private async static void Start()
         {
             try
             {
@@ -55,6 +55,8 @@ namespace GrammarFramework
             Thread.Sleep(5000);
             return int.Parse(result.ToString());
         }
+
+       
     }
    
 }
