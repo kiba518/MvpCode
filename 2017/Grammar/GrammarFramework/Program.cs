@@ -13,7 +13,15 @@ namespace GrammarFramework
         {
             EventSyntax fds = new EventSyntax();
             fds.Excute();
+            //事件的外部定义
+            fds.testEvent += Fds_testEvent;
+
             Console.ReadKey();
+        }
+
+        private static void Fds_testEvent(string message)
+        {
+            throw new NotImplementedException();
         }
     }
     
