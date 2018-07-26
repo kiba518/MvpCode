@@ -11,7 +11,8 @@ namespace GrammarFramework
     {
         static void Main(string[] args)
         {
-            SingleAwaitGrammmar.Excute(); 
+            EventSyntax fds = new EventSyntax();
+            fds.Excute();
             Console.ReadKey();
         }
     }

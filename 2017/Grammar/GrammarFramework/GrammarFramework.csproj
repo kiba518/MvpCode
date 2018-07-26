@@ -34,8 +34,11 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MDelegateSyntax.cs" />
+    <Compile Include="EventSyntax.cs" />
+    <Compile Include="ChildDelegateSyntax.cs" />
+    <Compile Include="BaseDelegateSyntax.cs" />
+    <Compile Include="DelegateSyntax.cs" />
+    <Compile Include="FanXingGrammmar.cs" />
     <Compile Include="AsyncTestGrammmar.cs" />
     <Compile Include="AsnycGrammmar.cs" />
     <Compile Include="Code\Dijkstra.cs" />
