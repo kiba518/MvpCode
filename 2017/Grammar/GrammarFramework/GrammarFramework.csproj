@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\KMP.cs" />
     <Compile Include="EventSyntax2.cs" />
     <Compile Include="MDelegateSyntax.cs" />
     <Compile Include="EventSyntax.cs" />

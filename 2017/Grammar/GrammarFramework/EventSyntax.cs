@@ -90,7 +90,7 @@ namespace GrammarFramework
             Console.WriteLine(message);
         }
     }
-}
+
 
     class Counter
     {
@@ -131,6 +131,7 @@ namespace GrammarFramework
         public int Threshold { get; set; }
         public DateTime TimeReached { get; set; }
     }
+
 
 }
  

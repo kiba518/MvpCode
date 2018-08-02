@@ -1,0 +1,7 @@
+E:\GitHub\MvpCode\2017\Grammar\MSQ\bin\Debug\MSQ.exe.config
+E:\GitHub\MvpCode\2017\Grammar\MSQ\bin\Debug\MSQ.exe
+E:\GitHub\MvpCode\2017\Grammar\MSQ\bin\Debug\MSQ.pdb
+E:\GitHub\MvpCode\2017\Grammar\MSQ\obj\Debug\MSQ.csprojAssemblyReference.cache
+E:\GitHub\MvpCode\2017\Grammar\MSQ\obj\Debug\MSQ.csproj.CoreCompileInputs.cache
+E:\GitHub\MvpCode\2017\Grammar\MSQ\obj\Debug\MSQ.exe
+E:\GitHub\MvpCode\2017\Grammar\MSQ\obj\Debug\MSQ.pdb
