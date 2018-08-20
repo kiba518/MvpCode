@@ -138,9 +138,9 @@ namespace Accord.NETTest
             teacher.Algorithm = (h, v, i) => {
                 return new ContrastiveDivergenceLearning(h, v)
                 {
-                    LearningRate = 0.1,
-                    Momentum = 0.5,
-                    Decay = 0.001,
+                    LearningRate = 0.1,//学习速率
+                    Momentum = 0.5,//动力
+                    Decay = 0.001,//腐烂
                 };
             };
 
@@ -151,21 +151,28 @@ namespace Accord.NETTest
             //    Decay = 0.001,
             //};
             // Setup batches of input for learning.
-            int batchCount = System.Math.Max(1, inputs.Length / 100);
+            int batchCount = System.Math.Max(1, inputs.Length / 100);//设置学习次数
             // Create mini-batches to speed learning.
-            int[] groups = Accord.Statistics.Classes.Random(inputs.Length, batchCount);
-            double[][][] batches = inputs.Separate(groups);
+            int[] groups = Accord.Statistics.Classes.Random(inputs.Length, batchCount);//创建小批量 速度学习
+            double[][][] batches = inputs.Separate(groups);//分离
             // Learning data for the specified layer.
-            double[][][] layerData;
+            double[][][] layerData;//为指定层 学习数据
 
-            // Unsupervised learning on each hidden layer, except for the output layer.
+            // Unsupervised learning on each hidden layer, except for the output layer.除了输出层之外，在每个隐藏层上进行无监督学习。
+            //network.Machines.Count 在这个深网络的每一层上得到受限制的玻尔兹曼机器。
             for (int layerIndex = 0; layerIndex < network.Machines.Count - 1; layerIndex++)
             {
                 teacher.LayerIndex = layerIndex;
+                /*
+                 获取训练数据所需的学习数据。
+                这个函数的返回应该被传递给No.Posial.SurvivyFieldWorksPr.RunEpoch（System，Pouth[2][]）。
+                去实践一个学习时代。
+                 */
                 layerData = teacher.GetLayerInput(batches);
-                for (int i = 0; i < 200; i++)
+                for (int i = 0; i < 200; i++)//200次学习
                 {
-                    double error = teacher.RunEpoch(layerData) / inputs.Length;
+                    var learningResult = teacher.RunEpoch(layerData);
+                    double error = learningResult / inputs.Length;//RunEpoch运行纪元  Returns sum of learning errors.
                     if (i % 10 == 0)
                     {
                         Console.WriteLine(i + ", Error = " + error);
@@ -173,15 +180,15 @@ namespace Accord.NETTest
                 }
             }
 
-            // Supervised learning on entire network, to provide output classification.
+            // Supervised learning on entire network, to provide output classification.对整个网络进行监督学习，提供输出分类。
             var teacher2 = new Neuro.Learning.BackPropagationLearning(network)
             {
-                LearningRate = 0.1,
-                Momentum = 0.5
+                LearningRate = 0.1,//学习速率
+                Momentum = 0.5//动力
             };
 
-            // Run supervised learning.
-            for (int i = 0; i < 500; i++)
+            // Run supervised learning.运行监督学习。
+            for (int i = 0; i < 500; i++)//500次学习
             {
                 double error = teacher2.RunEpoch(inputs, outputs) / inputs.Length;
                 if (i % 10 == 0)
@@ -190,11 +197,19 @@ namespace Accord.NETTest
                 }
             }
 
-            // Test the resulting accuracy.
+            // Test the resulting accuracy. 测试结果的准确性
             int correct = 0;
             for (int i = 0; i < inputs.Length; i++)
             {
-                double[] outputValues = network.Compute(testInputs[i]);
+                var cp = testInputs[i].ToList();
+                var cpn = testInputs[i+1];
+                foreach(var item in cpn)
+                {
+                    cp.Add(item);
+                }
+                double[] outputValues = network.Compute(cp.ToArray());
+
+                //double[] outputValues = network.Compute(testInputs[i]);
                 if (DataManager.FormatOutputResult(outputValues) == DataManager.FormatOutputResult(testOutputs[i]))
                 {
                     correct++;

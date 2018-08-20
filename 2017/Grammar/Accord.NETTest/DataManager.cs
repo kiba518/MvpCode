@@ -109,7 +109,8 @@ namespace Accord.NETTest
         /// <returns>double</returns>
         public static double FormatOutputResult(double[] output)
         {
-            return output.ToList().IndexOf(output.Max());
+            double res = output.ToList().IndexOf(output.Max());
+            return res;
         }
 
         #endregion

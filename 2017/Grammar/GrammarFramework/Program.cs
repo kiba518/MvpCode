@@ -11,12 +11,16 @@ namespace GrammarFramework
     {
         static void Main(string[] args)
         {
-            KMP.KMP1("ABCDABCD", "ABCGABC");
+            //KMP.KMP1("ABCDABCD", "ABCGABC");
             //EventSyntax fds = new EventSyntax();
             //fds.Excute();
             ////事件的外部定义
             //fds.testEvent += Fds_testEvent;
-
+            string str = "10000000000001111000000000000000";
+            foreach(char item in str)
+            {
+                Console.WriteLine(item);
+            }
             Console.ReadKey();
         }
 
