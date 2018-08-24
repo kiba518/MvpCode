@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.NETTest", "Accord.NE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSQ", "MSQ\MSQ.csproj", "{8203BA3D-DE67-4877-9075-2B1E1F8485FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionTest", "ReflectionTest\ReflectionTest.csproj", "{C29C2586-EA16-40A9-B577-0881A7515DB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionFrom", "ReflectionFrom\ReflectionFrom.csproj", "{FD0E1F30-2BD1-4C32-A9B8-FACBA35A2CF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{8203BA3D-DE67-4877-9075-2B1E1F8485FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8203BA3D-DE67-4877-9075-2B1E1F8485FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8203BA3D-DE67-4877-9075-2B1E1F8485FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29C2586-EA16-40A9-B577-0881A7515DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29C2586-EA16-40A9-B577-0881A7515DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29C2586-EA16-40A9-B577-0881A7515DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29C2586-EA16-40A9-B577-0881A7515DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0E1F30-2BD1-4C32-A9B8-FACBA35A2CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0E1F30-2BD1-4C32-A9B8-FACBA35A2CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0E1F30-2BD1-4C32-A9B8-FACBA35A2CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0E1F30-2BD1-4C32-A9B8-FACBA35A2CF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

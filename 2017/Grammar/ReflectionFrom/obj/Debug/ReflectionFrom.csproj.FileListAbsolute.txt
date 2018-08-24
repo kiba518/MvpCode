@@ -1,0 +1,13 @@
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\obj\Debug\ReflectionFrom.csprojAssemblyReference.cache
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\obj\Debug\ReflectionFrom.Form1.resources
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\obj\Debug\ReflectionFrom.Properties.Resources.resources
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\obj\Debug\ReflectionFrom.csproj.GenerateResource.cache
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\obj\Debug\ReflectionFrom.csproj.CoreCompileInputs.cache
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\bin\Debug\ReflectionFrom.exe.config
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\bin\Debug\ReflectionFrom.exe
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\bin\Debug\ReflectionFrom.pdb
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\bin\Debug\ReflectionTest.dll
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\bin\Debug\ReflectionTest.pdb
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\obj\Debug\ReflectionFrom.csproj.CopyComplete
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\obj\Debug\ReflectionFrom.exe
+E:\GitHub\MvpCode\2017\Grammar\ReflectionFrom\obj\Debug\ReflectionFrom.pdb

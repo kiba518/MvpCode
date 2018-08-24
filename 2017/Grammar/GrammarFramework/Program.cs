@@ -1,4 +1,5 @@
 ﻿using GrammarFramework.Code;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,11 +17,14 @@ namespace GrammarFramework
             //fds.Excute();
             ////事件的外部定义
             //fds.testEvent += Fds_testEvent;
-            string str = "10000000000001111000000000000000";
-            foreach(char item in str)
-            {
-                Console.WriteLine(item);
-            }
+            //string str = "10000000000001111000000000000000";
+            //foreach(char item in str)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            
+            ReflectionSyntax.Excute();
             Console.ReadKey();
         }
 

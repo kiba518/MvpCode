@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Code\KMP.cs" />
+    <Compile Include="ReflectSyntax.cs" />
     <Compile Include="EventSyntax2.cs" />
     <Compile Include="MDelegateSyntax.cs" />
     <Compile Include="EventSyntax.cs" />
@@ -66,6 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReflectionTest\ReflectionTest.csproj">
+      <Project>{c29c2586-ea16-40a9-b577-0881a7515db6}</Project>
+      <Name>ReflectionTest</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
