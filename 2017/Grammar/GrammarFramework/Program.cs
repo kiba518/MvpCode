@@ -11,11 +11,8 @@ namespace GrammarFramework
     {
         static void Main(string[] args)
         {
-            EventSyntax fds = new EventSyntax();
-            fds.Excute();
-            //事件的外部定义
-            fds.testEvent += Fds_testEvent;
-
+            NotifySyntax fds = new NotifySyntax();
+            fds.Excute(); 
             Console.ReadKey();
         }
 

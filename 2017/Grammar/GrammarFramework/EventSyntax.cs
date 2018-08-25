@@ -60,12 +60,12 @@ namespace GrammarFramework
         //}
         //首先定义一个委托，然后利用event关键字，定义一个事件。整体上看，好像就是在定义一个委托，只是在委托的定义之前，加了个event关键字。
         // 没错，事件的定义就是这样，因为要声明一个事件，需要两个元素： 标识提供对事件的响应的方法的委托，和一个类，用存储事件的数据。
-        public delegate void TestDelegate(string message);      
+        public delegate void TestDelegate(string message);
         public event TestDelegate testEvent;
         public void Init()
-        { 
-            testEvent += new TestDelegate(EventSyntax_testEvent); 
-            testEvent += EventSyntax_testEvent; 
+        {
+            testEvent += new TestDelegate(EventSyntax_testEvent);
+            testEvent += EventSyntax_testEvent;
         }
         private void EventSyntax_testEvent(string message)
         {
@@ -76,18 +76,18 @@ namespace GrammarFramework
             Console.WriteLine("The threshold of {0} was reached at {1}.", e.Threshold, e.TimeReached);
             Environment.Exit(0);
         }
-      
 
-          //Counter c = new Counter(new Random().Next(10));
-          //  c.ThresholdReached += c_ThresholdReached; 
-          //  Console.WriteLine("press 'a' key to increase total");
-          //  while (Console.ReadKey(true).KeyChar == 'a')
-          //  {
-          //      Console.WriteLine("adding one");
-          //      c.Add(1);
-          //  }  
+
+        //Counter c = new Counter(new Random().Next(10));
+        //  c.ThresholdReached += c_ThresholdReached; 
+        //  Console.WriteLine("press 'a' key to increase total");
+        //  while (Console.ReadKey(true).KeyChar == 'a')
+        //  {
+        //      Console.WriteLine("adding one");
+        //      c.Add(1);
+        //  }  
+
     }
-}
 
     class Counter
     {
@@ -128,6 +128,5 @@ namespace GrammarFramework
         public int Threshold { get; set; }
         public DateTime TimeReached { get; set; }
     }
-
 }
  
