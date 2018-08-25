@@ -88,10 +88,7 @@ namespace GrammarFramework
         //  }  
 
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 1a524120576d5de9801abfba091d20a089632327
+ 
 
     class Counter
     {
@@ -132,10 +129,6 @@ namespace GrammarFramework
         public int Threshold { get; set; }
         public DateTime TimeReached { get; set; }
     }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 1a524120576d5de9801abfba091d20a089632327
+ 
 }
  

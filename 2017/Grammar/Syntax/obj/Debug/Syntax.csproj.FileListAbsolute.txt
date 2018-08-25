@@ -1,0 +1,7 @@
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\bin\Debug\Syntax.exe.config
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\bin\Debug\Syntax.exe
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\bin\Debug\Syntax.pdb
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.csprojAssemblyReference.cache
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.csproj.CoreCompileInputs.cache
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.exe
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.pdb

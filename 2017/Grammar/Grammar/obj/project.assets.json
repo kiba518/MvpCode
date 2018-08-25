@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\MvpCode\\2017\\Grammar\\Grammar\\Grammar.csproj",
+      "projectUniqueName": "D:\\GitHub\\DataNew\\MvpCode\\2017\\Grammar\\Grammar\\Grammar.csproj",
       "projectName": "Grammar",
-      "projectPath": "E:\\GitHub\\MvpCode\\2017\\Grammar\\Grammar\\Grammar.csproj",
+      "projectPath": "D:\\GitHub\\DataNew\\MvpCode\\2017\\Grammar\\Grammar\\Grammar.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\MvpCode\\2017\\Grammar\\Grammar\\obj\\",
+      "outputPath": "D:\\GitHub\\DataNew\\MvpCode\\2017\\Grammar\\Grammar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -688,7 +688,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "F:\\dll": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

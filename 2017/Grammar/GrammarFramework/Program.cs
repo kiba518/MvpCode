@@ -1,5 +1,5 @@
 ﻿using GrammarFramework.Code;
-
+using Syntax;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +12,10 @@ namespace GrammarFramework
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
+ 
             NotifySyntax fds = new NotifySyntax();
-            fds.Excute(); 
-=======
+            fds.Excute();
+
             //KMP.KMP1("ABCDABCD", "ABCGABC");
             //EventSyntax fds = new EventSyntax();
             //fds.Excute();
@@ -27,9 +27,9 @@ namespace GrammarFramework
             //    Console.WriteLine(item);
             //}
 
-            
+
             ReflectionSyntax.Excute();
->>>>>>> 1a524120576d5de9801abfba091d20a089632327
+ 
             Console.ReadKey();
         }
 

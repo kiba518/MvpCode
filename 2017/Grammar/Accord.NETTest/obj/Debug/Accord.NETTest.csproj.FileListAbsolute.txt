@@ -47,3 +47,6 @@ E:\GitHub\MvpCode\2017\Grammar\Accord.NETTest\bin\Debug\AForge.Genetic.xml
 E:\GitHub\MvpCode\2017\Grammar\Accord.NETTest\bin\Debug\AForge.Math.xml
 E:\GitHub\MvpCode\2017\Grammar\Accord.NETTest\bin\Debug\AForge.Neuro.xml
 E:\GitHub\MvpCode\2017\Grammar\Accord.NETTest\bin\Debug\data.txt
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Accord.NETTest\bin\Debug\Accord.NETTest.exe.config
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Accord.NETTest\obj\Debug\Accord.NETTest.exe
+D:\GitHub\DataNew\MvpCode\2017\Grammar\Accord.NETTest\obj\Debug\Accord.NETTest.pdb

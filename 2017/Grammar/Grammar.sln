@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionTest", "Reflectio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionFrom", "ReflectionFrom\ReflectionFrom.csproj", "{FD0E1F30-2BD1-4C32-A9B8-FACBA35A2CF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syntax", "Syntax\Syntax.csproj", "{A19360F0-6D49-4D83-B980-E3C389369677}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{FD0E1F30-2BD1-4C32-A9B8-FACBA35A2CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD0E1F30-2BD1-4C32-A9B8-FACBA35A2CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD0E1F30-2BD1-4C32-A9B8-FACBA35A2CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19360F0-6D49-4D83-B980-E3C389369677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19360F0-6D49-4D83-B980-E3C389369677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19360F0-6D49-4D83-B980-E3C389369677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19360F0-6D49-4D83-B980-E3C389369677}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
