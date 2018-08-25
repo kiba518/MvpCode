@@ -1,4 +1,5 @@
 ﻿using GrammarFramework.Code;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,24 @@ namespace GrammarFramework
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             NotifySyntax fds = new NotifySyntax();
             fds.Excute(); 
+=======
+            //KMP.KMP1("ABCDABCD", "ABCGABC");
+            //EventSyntax fds = new EventSyntax();
+            //fds.Excute();
+            ////事件的外部定义
+            //fds.testEvent += Fds_testEvent;
+            //string str = "10000000000001111000000000000000";
+            //foreach(char item in str)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            
+            ReflectionSyntax.Excute();
+>>>>>>> 1a524120576d5de9801abfba091d20a089632327
             Console.ReadKey();
         }
 

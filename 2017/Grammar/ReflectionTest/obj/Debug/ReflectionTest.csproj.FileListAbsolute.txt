@@ -1,0 +1,10 @@
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\bin\Debug\ReflectionTest.dll
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\bin\Debug\ReflectionTest.pdb
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\obj\Debug\ReflectionTest.csprojAssemblyReference.cache
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\obj\Debug\ReflectionTest.csproj.CoreCompileInputs.cache
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\obj\Debug\ReflectionTest.dll
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\obj\Debug\ReflectionTest.pdb
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\bin\Debug\System.Net.Http.dll
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\bin\Debug\System.Net.Http.xml
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+E:\GitHub\MvpCode\2017\Grammar\ReflectionTest\obj\Debug\ReflectionTest.csproj.CopyComplete
