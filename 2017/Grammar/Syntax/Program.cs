@@ -12,8 +12,8 @@ namespace Syntax
     {
         static void Main(string[] args)
         {
-            Client client = new Client();
-            client.ExcuteGetNameCommand();
+            ReflectionSyntax rs = new ReflectionSyntax();
+            rs.ExcuteKibaAttribute();
 
             Console.ReadKey();
         }
