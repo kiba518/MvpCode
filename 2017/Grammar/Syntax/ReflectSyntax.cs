@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace Syntax
 {
-    public class ReflectionSyntax
+    public partial class ReflectionSyntax
     { 
         //public static void Excute()
         //{
@@ -51,9 +51,33 @@ namespace Syntax
             object[] pmts = new object[] { "Kiba518" };
             method.Invoke(kiba, pmts);//执行方法  
         }
+
+
+
+        public static void ExcuteProperty()
+        {
+            Kiba kiba = new Kiba();
+            kiba.Name = "Kiba518";
+            object name = ReflectionSyntax.GetPropertyValue(kiba, "Name");
+            Console.WriteLine(name); 
+        } 
+        public static object GetPropertyValue(object obj, string name)
+        {
+            PropertyInfo property = obj.GetType().GetProperty(name);
+            if (property != null)
+            {
+                object drv1 = property.GetValue(obj, null);
+                return drv1;
+            }
+            else
+            {
+                return null;
+            } 
+        }
     } 
     public class Kiba
     {
+        public string Name { get; set; }
         public void PrintName(string name)
         {
             Console.WriteLine(name);

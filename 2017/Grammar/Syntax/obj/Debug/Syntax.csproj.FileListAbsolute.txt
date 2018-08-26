@@ -5,3 +5,10 @@ D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.csprojAssemblyRef
 D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.csproj.CoreCompileInputs.cache
 D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.exe
 D:\GitHub\DataNew\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.pdb
+E:\GitHub\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.csprojAssemblyReference.cache
+E:\GitHub\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.csproj.CoreCompileInputs.cache
+E:\GitHub\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.exe
+E:\GitHub\MvpCode\2017\Grammar\Syntax\obj\Debug\Syntax.pdb
+E:\GitHub\MvpCode\2017\Grammar\Syntax\bin\Debug\Syntax.exe.config
+E:\GitHub\MvpCode\2017\Grammar\Syntax\bin\Debug\Syntax.exe
+E:\GitHub\MvpCode\2017\Grammar\Syntax\bin\Debug\Syntax.pdb

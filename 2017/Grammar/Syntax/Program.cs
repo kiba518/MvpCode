@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Syntax;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -10,8 +11,9 @@ namespace Syntax
     class Program
     {
         static void Main(string[] args)
-        {  
-            ReflectionSyntax.ExcuteMethod();
+        {
+            Client client = new Client();
+            client.ExcuteGetNameCommand();
 
             Console.ReadKey();
         }
